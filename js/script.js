@@ -25,10 +25,10 @@ function CrearHTML(array) {
             </p>
             <div class="botones row">    
                 <a class="col-sm" onclick="Eliminar('${nota.nombre}')">
-                    <img src="../images/trash-solid.svg">
+                    <img src="images/trash-solid.svg">
                 </a>
                 <a class="col-sm" onclick="Modificar('${nota.nombre}', '${nota.descripcion}')">
-                    <img src="../images/pen-to-square-solid.svg">
+                    <img src="images/pen-to-square-solid.svg">
                 </a>
             </div>
         </div>`
